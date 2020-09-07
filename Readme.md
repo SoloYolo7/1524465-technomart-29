@@ -1,7 +1,6 @@
 # Личный проект «Техномарт»
 
-* Студент: [Тигран Арутюнян](https://up.htmlacademy.ru/htmlcss/29/user/1524465).
-* Наставник: `Максим Кузнецов`. (https://htmlacademy.ru/profile/maxkuznetsov)
+* Студент: [Тигран Арутюнян] (https://up.htmlacademy.ru/htmlcss/29/user/1524465).
 
 ---
 
