@@ -248,7 +248,7 @@ a {
 /* Bookmark Icon */
 
 .header-bookmark svg {
-  margin-right: 9px;
+  margin-right: 4px;
   position: relative;
   top: 2px;
   opacity: 0.3;
@@ -262,7 +262,7 @@ a {
   background-color: var(--basic-darkgrey-active);
   opacity: 0.3;
 }
- 
+
 /* Cart  */
 
 .header-cart {
@@ -276,7 +276,7 @@ a {
 /* Cart Icon */
 
 .header-cart svg {
-  margin-right: 8px;
+  margin-right: 6px;
   position: relative;
   top: 1px;
   opacity: 0.3;
@@ -348,8 +348,8 @@ a {
   background-color: var(--basic-main-grey);
   border: 3px solid var(--basic-white);
   box-sizing: border-box;
-  color: var(--basic-red); 
-}  
+  color: var(--basic-red);
+}
 
 .catalog-phone {
   padding-left: 22px;
@@ -452,26 +452,26 @@ a {
 .site-nav-list {
   list-style: none;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .site-nav-item:first-child a {
-  padding-left: 54px; 
+  padding-left: 54px;
 }
 
 .site-nav-item:last-child a {
-  padding-right: 55px; 
+  padding-right: 55px;
 }
 
 .site-nav-list a {
   font-size: 18px;
-  color: var(--basic-white); 
+  color: var(--basic-white);
   display: block;
   padding: 18px 28px 18px 28px;
-} 
+}
 
 .site-nav-list a:hover {
   background-color: var(--basic-darker-grey);
@@ -528,7 +528,7 @@ a {
   background-image: url("../img/icon-backet.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-} 
+}
 
 .material a {
   padding: 10px 24px 10px 23px;
@@ -760,7 +760,7 @@ a {
 }
 
 .goods-title h2 {
-  padding: 30px 2px 29px 28px; 
+  padding: 30px 2px 29px 28px;
 }
 
 .title-description {
@@ -820,7 +820,7 @@ a {
   align-items: center;
   text-align: center;
   width: 220px;
-  padding: 20px;
+  padding: 20px 15px;
 }
 
 .goods-img {
@@ -829,12 +829,14 @@ a {
   justify-content: center;
   align-items: center;
   height: 140px;
-  margin: 0 0 16px 0;
-} 
+  margin:0 0 16px 0;
+}
 
 .goods-img img {
   max-width: 100%;
   height: auto;
+  margin-top: -2px;
+  margin-right: 9px;
 }
 
 /* New Flag */
@@ -847,7 +849,7 @@ a {
   height: 68px;
   background-image: url("../img/rectangle.svg");
   background-repeat: no-repeat;
-  background-position: 0 0; 
+  background-position: 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -896,7 +898,7 @@ a {
   border-radius: 2px;
   padding: 10px 44px 10px 32px;
   margin: auto 0 0 10px;
-} 
+}
 
 /* Buy-Bookmark */
 
@@ -924,7 +926,7 @@ a {
   width: 135px;
 }
 
-.goods-item:hover 
+.goods-item:hover
 .buy-bookmark {
   opacity: 1;
   pointer-events: auto;
@@ -937,10 +939,10 @@ a {
 
 /* Goods Cart Icon */
 
-.buy-bookmark 
+.buy-bookmark
 .goods-buy {
   position: relative;
-} 
+}
 
 .goods-buy::before {
   content: "";
@@ -1012,7 +1014,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 145px;
-} 
+}
 
 .producer-logo a:hover {
   box-shadow: 0 0 5px 5px var(--basic-lighter-grey);
@@ -1020,7 +1022,7 @@ a {
 
 .producer-logo a:active {
   opacity: 0.3;
-} 
+}
 
 .button-popular-producers {
   padding: 11px 38px 9px 39px;
@@ -1031,7 +1033,7 @@ a {
 
 .services {
   background-color: var(--basic-main-grey);
-  margin-bottom: 72px;    
+  margin-bottom: 72px;
 }
 
 .title,
@@ -1061,12 +1063,12 @@ a {
 
 .service-details {
   display: grid;
-  grid-template-columns: min-content 1fr; 
+  grid-template-columns: min-content 1fr;
   column-gap: 80px;
 }
 
 .service-items {
-  list-style: none; 
+  list-style: none;
   margin: 0;
   padding-left:0;
   padding-bottom: 99px;
@@ -1143,22 +1145,22 @@ a {
   background-position: 0 0;
 }
 
-.service-options 
+.service-options
 .delivery-icon::after {
   margin-top: 21px;
   width: 470px;
   height: 283px;
   background-image: url("../img/service-delivery.png");
-} 
+}
 
-.service-options 
+.service-options
 .warranty-icon::after {
   width: 389px;
   height: 283px;
   background-image: url("../img/service-warranty.png");
-} 
+}
 
-.service-options 
+.service-options
 .credit-icon::after {
   width: 468px;
   height: 283px;
@@ -1168,7 +1170,7 @@ a {
 .service-option p {
   font-size: 13px;
   font-family: "PT Sans", "Arial", sans-serif;
-  width: 280px;
+  width: 300px;
   padding: 30px 2px 5px 0;
   margin: 0;
   margin-bottom: 25px;
@@ -1178,7 +1180,7 @@ a {
   position: relative;
   opacity: 1;
   pointer-events: auto;
-} 
+}
 
 /* Warranty Button */
 
@@ -1228,7 +1230,7 @@ a {
   list-style: none;
 }
 
-.company-list 
+.company-list
 .list-line-decor {
   position: relative;
 }
@@ -1262,7 +1264,7 @@ a {
 .button-contact {
   display: block;
   padding: 11px 5px 9px 5px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   width: 300px;
   margin-top: 20px;
 }
@@ -1289,7 +1291,7 @@ a {
   top: 0;
 }
 
-.footer-contacts p, 
+.footer-contacts p,
 .footer-contacts a {
   color: var(--basic-main-grey);
   font-size: 18px;
@@ -1372,7 +1374,7 @@ a {
 }
 
 .footer-copyright p,
-.footer-links p, 
+.footer-links p,
 .footer-links a {
   font-size: 16px;
   line-height: 18px;
@@ -1433,14 +1435,14 @@ a {
 .icon-fb {
   padding: 9px 15px 3px 15px;
   border-radius: 50%;
-  background: var(--special-icon-navy); 
+  background: var(--special-icon-navy);
   /* margin-right: 3px;  */
 }
 
 .icon-ig {
   padding: 9px 10px 3px 10px;
   border-radius: 50%;
-  background: var(--special-icon-navy); 
+  background: var(--special-icon-navy);
   margin-right: 3px;
 }
 .icon:hover,
@@ -1596,14 +1598,14 @@ a {
   line-height: 18px;
   text-transform: uppercase;
   margin: 0;
-} 
+}
 
 /* Breadcrumbs Icons */
 
-.breadcrumbs 
+.breadcrumbs
 .breadcrumbs-list {
   position: relative;
-} 
+}
 
 .home-link::before {
   content: "";
@@ -1617,7 +1619,7 @@ a {
   background-position: 0 0;
 }
 
-.breadcrumbs-list 
+.breadcrumbs-list
 .breadcrumbs-item {
   position: relative;
 }
@@ -1632,7 +1634,7 @@ a {
   background-image: url(../img/icon-right-small.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
-} 
+}
 
 /* Goods catalog - Filter - Sorting */
 
@@ -1692,7 +1694,7 @@ a {
 
 /* Filter section line */
 
-.filter 
+.filter
 .filter-item {
   position: relative;
 }
@@ -1724,13 +1726,13 @@ a {
   margin-bottom: 11px;
 }
 
-.range-controls 
+.range-controls
 .scale {
   height: 2px;
-  background: var(--filter-range-grey); 
+  background: var(--filter-range-grey);
 }
 
-.range-controls 
+.range-controls
 .bar {
   height: 2px;
   background: var(--filter-line-green);
@@ -1740,7 +1742,7 @@ a {
   position: relative;
 }
 
-.range-controls 
+.range-controls
 .toggle {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -1754,7 +1756,7 @@ a {
   cursor: pointer;
 }
 
-.scale 
+.scale
 .toggle-max {
   left: 160px;
 }
@@ -1796,7 +1798,7 @@ a {
   padding-left: 24px;
 }
 
-.price-controls 
+.price-controls
 .min-price {
   position: relative;
   margin-right: 8px;
@@ -1899,7 +1901,7 @@ a {
 input[type="checkbox"]:focus + label::before {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
-} 
+}
 
 /* Radio Button */
 
@@ -1938,7 +1940,7 @@ input[type="checkbox"]:focus + label::before {
 input[type="radio"]:focus + label::before {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
-} 
+}
 
 .filter-input:disabled + label,
 .filter-input:checked:disabled + label,
@@ -2081,7 +2083,7 @@ input[type="radio"]:focus + label::before {
   font-weight: 400;
   color: var(--basic-dark-grey);
   text-transform: uppercase;
-  padding: 29px 0 30px 28px; 
+  padding: 29px 0 30px 28px;
   margin:0;
 }
 
@@ -2189,7 +2191,7 @@ input[type="radio"]:focus + label::before {
   width: 19px;
   height: 3px;
   background-color: var(--basic-red);
-} 
+}
 
 .modal-close::before {
   transform: rotate(45deg);
@@ -2197,7 +2199,7 @@ input[type="radio"]:focus + label::before {
 
 .modal-close::after {
   transform: rotate(-45deg);
-} 
+}
 
 /* Modal Contact Form  */
 
@@ -2320,7 +2322,7 @@ input[type="radio"]:focus + label::before {
   font-size: 24px;
   line-height: 30px;
   text-align: center;
-  padding: 20px 80px 0; 
+  padding: 20px 80px 0;
 }
 
 .message::before {
@@ -2372,7 +2374,7 @@ input[type="radio"]:focus + label::before {
   70% {
     transform: translate(-50%, -50%) translateY(30px);
   }
-  
+
   90% {
     transform: translate(-50%, -50%) translateY(-10px);
   }
